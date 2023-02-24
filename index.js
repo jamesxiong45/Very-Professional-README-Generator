@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
+// prompts user inputs for the README
 function init() {
     inquirer.prompt([
     {
@@ -57,9 +58,10 @@ function init() {
         message: "What do you want to name this README.md file?"
     }
     ])
+    // creates the README file using the answers to the prompt
     .then((answers) => {
         const readmeContent = generateMarkdown(answers);
-        fs.writeFile(answers.fileName + '.md', readmeContent, (err) =>
+        fs.writeFile('README.md', readmeContent, (err) =>
         err ? console.log(err) : console.log('A README.md file was created.')
         );
     })
