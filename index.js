@@ -51,12 +51,7 @@ function init() {
         type: "input",
         name: "email",
         message: "What is your email address?"
-    },
-    {
-        type: "input",
-        name: "fileName",
-        message: "What do you want to name this README.md file?"
-    }
+    } 
     ])
     // creates the README file using the answers to the prompt
     .then((answers) => {
