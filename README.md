@@ -1,9 +1,7 @@
 # a
-  ## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-  ## License
-  Learn more about MIT here:
-  [MIT](https://opensource.org/licenses/MIT)
+  ## Description
+  a
   ## Table of Contents
   * [License](#license)
   * [Description](#description)
@@ -12,16 +10,17 @@
   * [Contribute](#contribute)
   * [Tests](#tests)
   * [Questions](#questions)
-  ## Description
-  a
   ## Installation
   a
   ## Usage
   a
-  ## How to Contribute
+    ## How to Contribute
   a
-  ## Tests
+    ## Tests
   a
+  ## License
+  Learn more about MIT here:
+  [MIT](https://opensource.org/licenses/MIT)
   ## Questions
   ### Find me at:
   [a](https://github.com/a)

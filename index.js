@@ -60,8 +60,8 @@ function init() {
     ])
     // creates the README file using the answers to the prompt
     .then((answers) => {
-        const readmeContent = generateMarkdown(answers);
-        fs.writeFile('README.md', readmeContent, (err) =>
+        const a = generateMarkdown(answers);
+        fs.writeFile('README.md', a, (err) =>
         err ? console.log(err) : console.log('A README.md file was created.')
         );
     })
