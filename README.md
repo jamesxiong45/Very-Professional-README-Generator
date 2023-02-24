@@ -14,6 +14,6 @@ This app requires the use of VSCode! By typing node index.js into the terminal, 
 
 ## Video Demo
 
+Here is a link to my video demo!
 
-
-## Tests
+https://drive.google.com/file/d/1zZfLWBK5OK6uj1a7Y_5S1oyuINjsk4nK/view
